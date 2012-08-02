@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'uploadtest' target in the 'uploadtest' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+
+#define DEBUGGING
+
+#ifdef DEBUGGING
+#   define DBLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+# define DBLog(...)
+#endif
+
+# define ErrorLog(fmt, ...) {UIAlertView * aview = [[UIAlertView alloc] initWithTitle:@"Error" message:[NSString stringWithFormat:@"%s %@ \nContact support.mythingsapp.com for help", __PRETTY_FUNCTION__, fmt] delegate:nil cancelButtonTitle:@"Cancel" otherButtonTitles: nil]; [aview show];}
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif

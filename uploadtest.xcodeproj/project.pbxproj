@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C10B808C15BF07F200D995A3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10B808B15BF07F200D995A3 /* Security.framework */; };
+		C10B808E15BF07F700D995A3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C10B808D15BF07F700D995A3 /* QuartzCore.framework */; };
+		C11EA44B15CAF09B001805F2 /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11EA44A15CAF09B001805F2 /* DropboxSDK.framework */; };
+		C16F346E15A0C7E600BCD548 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F346D15A0C7E600BCD548 /* UIKit.framework */; };
+		C16F347015A0C7E600BCD548 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F346F15A0C7E600BCD548 /* Foundation.framework */; };
+		C16F347215A0C7E600BCD548 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F347115A0C7E600BCD548 /* CoreGraphics.framework */; };
+		C16F347815A0C7E600BCD548 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C16F347615A0C7E600BCD548 /* InfoPlist.strings */; };
+		C16F347A15A0C7E600BCD548 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C16F347915A0C7E600BCD548 /* main.m */; };
+		C16F347E15A0C7E600BCD548 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C16F347D15A0C7E600BCD548 /* AppDelegate.m */; };
+		C16F348115A0C7E600BCD548 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C16F347F15A0C7E600BCD548 /* MainStoryboard.storyboard */; };
+		C16F348415A0C7E600BCD548 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C16F348315A0C7E600BCD548 /* ViewController.m */; };
+		C16F348B15A0C85E00BCD548 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F348A15A0C85E00BCD548 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C10B808B15BF07F200D995A3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C10B808D15BF07F700D995A3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C11EA44A15CAF09B001805F2 /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		C16F346915A0C7E600BCD548 /* uploadtest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uploadtest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16F346D15A0C7E600BCD548 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C16F346F15A0C7E600BCD548 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C16F347115A0C7E600BCD548 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C16F347515A0C7E600BCD548 /* uploadtest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "uploadtest-Info.plist"; sourceTree = "<group>"; };
+		C16F347715A0C7E600BCD548 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C16F347915A0C7E600BCD548 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C16F347B15A0C7E600BCD548 /* uploadtest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "uploadtest-Prefix.pch"; sourceTree = "<group>"; };
+		C16F347C15A0C7E600BCD548 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C16F347D15A0C7E600BCD548 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C16F348015A0C7E600BCD548 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C16F348215A0C7E600BCD548 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C16F348315A0C7E600BCD548 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C16F348A15A0C85E00BCD548 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C16F346615A0C7E600BCD548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11EA44B15CAF09B001805F2 /* DropboxSDK.framework in Frameworks */,
+				C10B808E15BF07F700D995A3 /* QuartzCore.framework in Frameworks */,
+				C10B808C15BF07F200D995A3 /* Security.framework in Frameworks */,
+				C16F348B15A0C85E00BCD548 /* CoreData.framework in Frameworks */,
+				C16F346E15A0C7E600BCD548 /* UIKit.framework in Frameworks */,
+				C16F347015A0C7E600BCD548 /* Foundation.framework in Frameworks */,
+				C16F347215A0C7E600BCD548 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C16F345E15A0C7E600BCD548 = {
+			isa = PBXGroup;
+			children = (
+				C16F347315A0C7E600BCD548 /* uploadtest */,
+				C16F346C15A0C7E600BCD548 /* Frameworks */,
+				C16F346A15A0C7E600BCD548 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C16F346A15A0C7E600BCD548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C16F346915A0C7E600BCD548 /* uploadtest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C16F346C15A0C7E600BCD548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C11EA44A15CAF09B001805F2 /* DropboxSDK.framework */,
+				C10B808D15BF07F700D995A3 /* QuartzCore.framework */,
+				C10B808B15BF07F200D995A3 /* Security.framework */,
+				C16F348A15A0C85E00BCD548 /* CoreData.framework */,
+				C16F346D15A0C7E600BCD548 /* UIKit.framework */,
+				C16F346F15A0C7E600BCD548 /* Foundation.framework */,
+				C16F347115A0C7E600BCD548 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C16F347315A0C7E600BCD548 /* uploadtest */ = {
+			isa = PBXGroup;
+			children = (
+				C16F347F15A0C7E600BCD548 /* MainStoryboard.storyboard */,
+				C16F347C15A0C7E600BCD548 /* AppDelegate.h */,
+				C16F347D15A0C7E600BCD548 /* AppDelegate.m */,
+				C16F348215A0C7E600BCD548 /* ViewController.h */,
+				C16F348315A0C7E600BCD548 /* ViewController.m */,
+				C16F347415A0C7E600BCD548 /* Supporting Files */,
+			);
+			path = uploadtest;
+			sourceTree = "<group>";
+		};
+		C16F347415A0C7E600BCD548 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C16F347515A0C7E600BCD548 /* uploadtest-Info.plist */,
+				C16F347615A0C7E600BCD548 /* InfoPlist.strings */,
+				C16F347915A0C7E600BCD548 /* main.m */,
+				C16F347B15A0C7E600BCD548 /* uploadtest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C16F346815A0C7E600BCD548 /* uploadtest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16F348715A0C7E600BCD548 /* Build configuration list for PBXNativeTarget "uploadtest" */;
+			buildPhases = (
+				C16F346515A0C7E600BCD548 /* Sources */,
+				C16F346615A0C7E600BCD548 /* Frameworks */,
+				C16F346715A0C7E600BCD548 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uploadtest;
+			productName = uploadtest;
+			productReference = C16F346915A0C7E600BCD548 /* uploadtest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C16F346015A0C7E600BCD548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "My Things App Inc.";
+			};
+			buildConfigurationList = C16F346315A0C7E600BCD548 /* Build configuration list for PBXProject "uploadtest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C16F345E15A0C7E600BCD548;
+			productRefGroup = C16F346A15A0C7E600BCD548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C16F346815A0C7E600BCD548 /* uploadtest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C16F346715A0C7E600BCD548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16F347815A0C7E600BCD548 /* InfoPlist.strings in Resources */,
+				C16F348115A0C7E600BCD548 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C16F346515A0C7E600BCD548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16F347A15A0C7E600BCD548 /* main.m in Sources */,
+				C16F347E15A0C7E600BCD548 /* AppDelegate.m in Sources */,
+				C16F348415A0C7E600BCD548 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C16F347615A0C7E600BCD548 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16F347715A0C7E600BCD548 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C16F347F15A0C7E600BCD548 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C16F348015A0C7E600BCD548 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C16F348515A0C7E600BCD548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C16F348615A0C7E600BCD548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C16F348815A0C7E600BCD548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dhanush Ram Balachandran (39Z8MH3KHG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dhanush Ram Balachandran (39Z8MH3KHG)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../dropbox-ios-sdk-1.2.3\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uploadtest/uploadtest-Prefix.pch";
+				INFOPLIST_FILE = "uploadtest/uploadtest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1D9A3773-A3A0-4A2A-9109-EA70B8E1E5A7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D9A3773-A3A0-4A2A-9109-EA70B8E1E5A7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C16F348915A0C7E600BCD548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dhanush Ram Balachandran (39Z8MH3KHG)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dhanush Ram Balachandran (39Z8MH3KHG)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../dropbox-ios-sdk-1.2.3\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "uploadtest/uploadtest-Prefix.pch";
+				INFOPLIST_FILE = "uploadtest/uploadtest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "1D9A3773-A3A0-4A2A-9109-EA70B8E1E5A7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "1D9A3773-A3A0-4A2A-9109-EA70B8E1E5A7";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C16F346315A0C7E600BCD548 /* Build configuration list for PBXProject "uploadtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F348515A0C7E600BCD548 /* Debug */,
+				C16F348615A0C7E600BCD548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C16F348715A0C7E600BCD548 /* Build configuration list for PBXNativeTarget "uploadtest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16F348815A0C7E600BCD548 /* Debug */,
+				C16F348915A0C7E600BCD548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C16F346015A0C7E600BCD548 /* Project object */;
+}
