@@ -9,7 +9,7 @@ Demonstrates uploading file to Dropbox using Dropbox SDK. More importantly it de
 ##Instructions to test the sample program
 
 1) Prepare the App for [Dropbox Access] [dblink]  
-- Obtain APPKEY & APPSECRET from your Dropbox Developer Account and updated them in AppDelegate.m lines 55, 56
+- Obtain APPKEY & APPSECRET from your Dropbox Developer Account and update them in AppDelegate.m lines 55, 56
 - Update URL Scheme db-APPKEY with db-XXXXXX using the App Key   
 
 2) Run the program, press the action buttons & watch the console window for logs  
