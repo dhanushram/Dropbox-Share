@@ -10,8 +10,9 @@ Demonstrates uploading file to Dropbox using Dropbox SDK. More importantly it de
 
 1) Prepare the App for [Dropbox Access] [dblink]  
 - Obtain APPKEY & APPSECRET from your Dropbox Developer Account and updated them in AppDelegate.m lines 55, 56
-- Update URL Scheme db-APPKEY with db-XXXXXX using the App Key  
-2) Run the program & watch the console window for logs
+- Update URL Scheme db-APPKEY with db-XXXXXX using the App Key   
+
+2) Run the program & watch the console window for logs  
 3) Go Through ViewController.h/m & AppDelegate.h/m to pick up relevant codes to use in your own App
 
 [dblink]: https://www.dropbox.com/developers/start/setup#ios
