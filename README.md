@@ -1,18 +1,26 @@
-Dropbox Share
+Inset-Tester
 ===============
 
-When your apps use custom buttons with button images, you would have to use Button Insets in order to make the button appear without any distortion. 
-This simple app allows you to test various inset values so that you can arrive at the right inset values for intended button appearance.
+This project was developed as part of the iOS App: [My Things - Where Are They?] [link]   
+[link]: http://itunes.apple.com/us/app/my-things-where-are-they/id529353551?ls=1&mt=8
 
-##Instructions
+Demonstrates uploading file to Dropbox using Dropbox SDK. More importantly it demonstrates creating a sharable link for an already existing file in Dropbox and receiving that file in your App as Share using NSURLConnection.
 
-1) Open the iPhone or iPad Storyboard and resize the button to your intended button size.  
-2) Replace "TestButtonImage.png" with your own button image.  
-3) Run the app and press top/bottom/left/right stepper buttons to vary insets. Accordingly the button image would change.  
-4) Once the intended button image appears, note down the inset values and use that in your App
+##Instructions to test the sample program
 
-##Screenshot
+1) Prepare the App for [Dropbox Access] [dblink]  
+- Obtain APPKEY & APPSECRET from your Dropbox Developer Account and updated them in AppDelegate.m lines 55, 56
+- Update URL Scheme db-APPKEY with db-XXXXXX using the App Key
+2) Run the program & watch the console window for logs
+3) Go Through ViewController.h/m & AppDelegate.h/m to pick up relevant codes to use in your own App
 
-[Screenshot] [ss]
+[dblink]: https://www.dropbox.com/developers/start/setup#ios
 
-[ss]:https://github.com/dhanushram/Inset-Tester/blob/master/Screenshots/screenshot.png
+##License
+Copyright (c) 2012 Dhanush Balachandran  
+Licensed under the MIT license.
+
+##Contact
+[My Things Support] [support] or [Support Email] [email]
+[support]: http://www.mythingsapp.com/Support.html
+[email]: mailto:support@mythingsapp.com
