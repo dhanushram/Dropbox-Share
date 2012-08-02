@@ -4,7 +4,7 @@ Dropbox Share
 This project was developed as part of the iOS App: [My Things - Where Are They?] [link]   
 [link]: http://itunes.apple.com/us/app/my-things-where-are-they/id529353551?ls=1&mt=8
 
-Demonstrates uploading file to Dropbox using Dropbox SDK. More importantly it demonstrates creating a sharable link for an already existing file in Dropbox and receiving that file in your App as Share using NSURLConnection.
+Demonstrates uploading file to Dropbox using Dropbox SDK. More importantly it demonstrates creating a sharable link for an already existing file in Dropbox and receiving that file in your App as share from a different account using NSURLConnection.
 
 ##Instructions to test the sample program
 
