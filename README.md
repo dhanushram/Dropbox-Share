@@ -1,4 +1,4 @@
-Dropbox Share
+Dropbox Share iOS
 ===============
 
 This project was developed as part of the iOS App: [My Things - Where Are They?] [link]   
