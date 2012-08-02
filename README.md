@@ -1,4 +1,4 @@
-Inset-Tester
+Dropbox Share
 ===============
 
 This project was developed as part of the iOS App: [My Things - Where Are They?] [link]   
